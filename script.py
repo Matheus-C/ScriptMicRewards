@@ -9,9 +9,9 @@ edge_path = input("coloque aqui o caminho para o executável do edge")
 webbrowser.register('edge', None, webbrowser.BackgroundBrowser(edge_path.replace('"', "")))
 
 url = "https://www.bing.com/search?q=smdnfbsdjkfgbsdjkfhvasjlfhbaskfhjbasjfhbasklfjb"
-for i in range(30):
+for i in range(45):
     webbrowser.get('edge').open(url)
     url = url[:-1]
-    sleep(2)
+    sleep(1)
     if i != 0:
         hotkey('ctrl', 'w')
