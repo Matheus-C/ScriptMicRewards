@@ -8,10 +8,10 @@ from pyautogui import hotkey
 edge_path = input("coloque aqui o caminho para o executável do edge")
 webbrowser.register('edge', None, webbrowser.BackgroundBrowser(edge_path.replace('"', "")))
 
-url = "https://www.bing.com/search?q=" + choice(ascii_lowercase)
+url = "https://www.bing.com/search?q=smdnfbsdjkfgbsdjkfhvasjlfhbaskfhjbasjfhbasklfjb"
 for i in range(30):
     webbrowser.get('edge').open(url)
-    url = url + choice(ascii_lowercase)
+    url = url[:-1]
     sleep(2)
     if i != 0:
         hotkey('ctrl', 'w')
