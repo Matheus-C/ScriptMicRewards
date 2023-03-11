@@ -15,3 +15,5 @@ for i in range(45):
     sleep(1)
     if i != 0:
         hotkey('ctrl', 'w')
+sleep(1)
+hotkey('ctrl', 'w')
