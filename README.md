@@ -1,4 +1,4 @@
-# ScriptMicRewards WIP
+# ScriptMicRewards
 Script para automatizar pesquisas para conquistar os pontos diários da missão de pesquisar no edge
 
 Para utilizá-lo utilize o executável script da pasta executável ou execute o script.py caso você tenha o python instalado com a biblioteca pyautogui,
