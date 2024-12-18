@@ -1,4 +1,4 @@
-# ScriptMicRewards
+# ScriptMicRewards (deprecated)
 Script para automatizar pesquisas para conquistar os pontos diários da missão de pesquisar no edge
 
 para este projeto fora utilizada a biblioteca pyautogui
